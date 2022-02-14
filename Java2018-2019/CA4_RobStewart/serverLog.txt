@@ -1,0 +1,150 @@
+Apr 26, 2019 1:12:34 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: recommended~tommy
+Apr 26, 2019 1:13:55 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findAllMovies
+Apr 26, 2019 3:06:54 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 26, 2019 3:07:11 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 26, 2019 3:07:26 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findAllMovies
+Apr 26, 2019 3:07:26 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 124
+Apr 26, 2019 3:07:26 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findAllMovies(), line 127
+Apr 26, 2019 3:07:29 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 130
+Apr 26, 2019 3:08:07 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findMovieByTitle~Spider
+Apr 26, 2019 3:08:07 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 152
+Apr 26, 2019 3:08:07 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieByTitle(), line 157
+Apr 26, 2019 3:08:07 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 160
+Apr 26, 2019 3:08:50 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
+Apr 26, 2019 3:09:53 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 26, 2019 3:09:58 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 26, 2019 3:10:15 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findMovieByTitle~spider
+Apr 26, 2019 3:10:15 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 152
+Apr 26, 2019 3:10:15 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieByTitle(), line 157
+Apr 26, 2019 3:10:15 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 160
+Apr 26, 2019 3:10:50 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: deleteMovieById~45
+Apr 26, 2019 3:10:50 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.deleteMovieById(), line 206
+Apr 26, 2019 3:10:50 PM BusinessObjects.Server$ClientHandler run
+INFO: clearcache(), line 209
+Apr 26, 2019 3:12:31 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findMovieById~45
+Apr 26, 2019 3:12:31 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 137
+Apr 26, 2019 3:12:31 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieById(), line 142
+Apr 26, 2019 3:12:31 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 145
+Apr 26, 2019 3:14:48 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
+Apr 26, 2019 3:15:04 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 26, 2019 3:15:09 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 26, 2019 3:15:24 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findMovieByGenre~action
+Apr 26, 2019 3:15:24 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 167
+Apr 26, 2019 3:15:24 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieByGenre(), line 172
+Apr 26, 2019 3:15:24 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 175
+Apr 26, 2019 3:17:53 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: recommended~tommy
+Apr 26, 2019 3:17:53 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 223
+Apr 26, 2019 3:17:53 PM BusinessObjects.Server$ClientHandler run
+INFO: wdao.findMoviesWatchedByUsername(), line 228tommy
+Apr 26, 2019 3:17:53 PM BusinessObjects.Server$ClientHandler run
+INFO: Number of watched movies found, line 239: 5
+Apr 26, 2019 3:17:53 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieByGenre(), line 264:  Fantasy
+Apr 26, 2019 3:18:17 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
+Apr 26, 2019 3:33:30 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 26, 2019 3:33:39 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 26, 2019 3:34:11 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
+Apr 26, 2019 3:34:59 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 26, 2019 3:35:03 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 26, 2019 3:35:18 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: deleteMovieById~23
+Apr 26, 2019 3:35:18 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.deleteMovieById(), line 206
+Apr 26, 2019 3:35:18 PM BusinessObjects.Server$ClientHandler run
+INFO: clearcache(), line 209
+Apr 26, 2019 3:35:41 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
+Apr 27, 2019 12:29:36 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 27, 2019 12:29:42 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 27, 2019 12:30:14 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findMovieById~47
+Apr 27, 2019 12:30:14 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 137
+Apr 27, 2019 12:30:14 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieById(), line 142
+Apr 27, 2019 12:30:14 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 145
+Apr 27, 2019 12:31:49 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 2. 
+Apr 27, 2019 12:32:14 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 2: findMovieById~34
+Apr 27, 2019 12:32:14 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 137
+Apr 27, 2019 12:32:14 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieById(), line 142
+Apr 27, 2019 12:32:14 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 145
+Apr 27, 2019 1:00:45 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 2 is terminating .....
+Apr 28, 2019 6:38:04 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 28, 2019 10:21:48 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 28, 2019 10:22:05 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 28, 2019 10:22:25 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findAllMovies
+Apr 28, 2019 10:22:25 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 124
+Apr 28, 2019 10:22:25 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findAllMovies(), line 127
+Apr 28, 2019 10:22:28 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 130
+Apr 28, 2019 10:23:00 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
+Apr 28, 2019 10:24:32 PM BusinessObjects.Server start
+INFO: Server started. Port 8080
+Apr 28, 2019 10:24:42 PM BusinessObjects.Server start
+INFO: ClientHandler started in thread for client 1. 
+Apr 28, 2019 10:24:59 PM BusinessObjects.Server$ClientHandler run
+INFO: Read command from client 1: findMovieById~46
+Apr 28, 2019 10:24:59 PM BusinessObjects.Server$ClientHandler run
+INFO: try to retrieve from cache, line 137
+Apr 28, 2019 10:24:59 PM BusinessObjects.Server$ClientHandler run
+INFO: dao.findMovieById(), line 142
+Apr 28, 2019 10:24:59 PM BusinessObjects.Server$ClientHandler run
+INFO: cache.addToCache(), line 145
+Apr 28, 2019 10:25:13 PM BusinessObjects.Server$ClientHandler run
+INFO: Handler for Client 1 is terminating .....
