@@ -1,0 +1,17 @@
+AdultItem~1~Levi Jeans~Blue~XL~2~120.99
+AdultItem~2~Diesel~Black~M~5~12.99
+AdultItem~3~Denims~Blue~XL~4~12.99
+AdultItem~4~Superdry~Navy~M~10~12.99
+AdultItem~5~Tommy Hilfiger~Grey~S~15~5.99
+AdultItem~6~Calvin Klein~Grey~S~6~2.99
+AdultItem~7~Gucci T-Shirt~Black~XS~4~152.99
+AdultItem~8~Channel Jumper~Pink~S~5~120.99
+AdultItem~9~Vans T-Shirt~Black~M~10~102.99
+AdultItem~11~Levi T-Shirt~White~M~2~12.99
+AdultItem~13~DKNY Coat~Green~L~3~234.55
+ChildItem~13~Gucci T-Shirt~Yellow~S~5~12.95
+AdultItem~14~Levi Denim Jacket~Denim~L~5~125.45
+AdultItem~15~Gucci Belt~Green~L~2~12.99
+ChildItem~16~Gap Kids~Blue~S~5~19.99
+ChildItem~17~Kids Jeans~Black~M~8~39.99
+ChildItem~18~Little t-shirts~Red~L~10~24.99
