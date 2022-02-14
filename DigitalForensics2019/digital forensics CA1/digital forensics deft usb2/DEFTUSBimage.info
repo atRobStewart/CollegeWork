@@ -1,0 +1,118 @@
+
+GUYMAGER ACQUISITION INFO FILE
+==============================
+
+Guymager
+========
+
+Version              : 0.8.8-1                                                                       
+Compilation timestamp: 2018-01-24-14.41.10                                                           
+Compiled with        : gcc 4.9.2                                                                     
+libewf version       : 20140608 (not used as Guymager is configured to use its own EWF module)       
+libguytools version  : 2.1.0beta5                                                                    
+Host name            : DeftZ                                                                         
+Domain name          : (none)                                                                        
+System               : Linux DeftZ 4.4.0-53-generic #74~14.04.1 SMP Tue Dec 20 14:33:58 CET 2016 i686
+
+
+Device information
+==================
+Command executed: bash -c "search="`basename /dev/sdc`: H..t P.......d A..a de.....d" && dmesg | grep -A3 "$search" || echo "No kernel HPA messages for /dev/sdc""
+Information returned:
+----------------------------------------------------------------------------------------------------
+   No kernel HPA messages for /dev/sdc
+
+Command executed: bash -c "smartctl -s on /dev/sdc ; smartctl -a /dev/sdc"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   smartctl 6.2 2013-07-26 r3841 [i686-linux-4.4.0-53-generic] (local build)
+   Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdc: Unknown USB bridge [0x8564:0x1000 (0x1100)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+   
+   smartctl 6.2 2013-07-26 r3841 [i686-linux-4.4.0-53-generic] (local build)
+   Copyright (C) 2002-13, Bruce Allen, Christian Franke, www.smartmontools.org
+   
+   /dev/sdc: Unknown USB bridge [0x8564:0x1000 (0x1100)]
+   Please specify device type with the -d option.
+   
+   Use smartctl -h to get a usage summary
+
+Command executed: bash -c "hdparm -I /dev/sdc"
+Information returned:
+----------------------------------------------------------------------------------------------------
+   SG_IO: bad/missing sense data, sb[]:  70 00 05 00 00 00 00 0a 00 00 00 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+   
+   /dev/sdc:
+   
+   ATA device, with non-removable media
+   Standards:
+   	Likely used: 1
+   Configuration:
+   	Logical		max	current
+   	cylinders	0	0
+   	heads		0	0
+   	sectors/track	0	0
+   	--
+   	Logical/Physical Sector size:           512 bytes
+   	device size with M = 1024*1024:           0 MBytes
+   	device size with M = 1000*1000:           0 MBytes 
+   	cache/buffer size  = unknown
+   Capabilities:
+   	IORDY not likely
+   	Cannot perform double-word IO
+   	R/W multiple sector transfer: not supported
+   	DMA: not supported
+   	PIO: pio0
+
+Hidden areas: unknown
+
+
+Acquisition
+===========
+
+Linux device            : /dev/sdc                                                           
+Device size             : 2000683008 (2.0GB)                                                 
+Format                  : Expert Witness Format, sub-format Guymager - file extension is .Exx
+Image meta data         
+   Case number          : DEFT2                                                              
+   Evidence number      : 2                                                                  
+   Examiner             : Rob                                                                
+   Description          : DEFTUSB2                                                           
+   Notes                : 24SR685V4XPXMPI8                                                   
+Image path and file name: /root/Desktop/DEFTUSBimage.Exx                                     
+Info  path and file name: /root/Desktop/DEFTUSBimage.info                                    
+Hash calculation        : MD5 and SHA-1                                                      
+Source verification     : off                                                                
+Image verification      : on                                                                 
+
+No bad sectors encountered during acquisition.
+State: Finished successfully
+
+MD5 hash                   : 375b02af63a7fe46fd67dbf695e95d7d        
+MD5 hash verified source   : --                                      
+MD5 hash verified image    : 375b02af63a7fe46fd67dbf695e95d7d        
+SHA1 hash                  : 15418c8a416cce07dcf0ce58b7254736f3d8f898
+SHA1 hash verified source  : --                                      
+SHA1 hash verified image   : 15418c8a416cce07dcf0ce58b7254736f3d8f898
+SHA256 hash                : --                                      
+SHA256 hash verified source: --                                      
+SHA256 hash verified image : --                                      
+Image verification OK. The image contains exactly the data that was written.
+
+Acquisition started : 2019-10-04 11:42:07 (ISO format YYYY-MM-DD HH:MM:SS)   
+Verification started: 2019-10-04 11:43:11                                    
+Ended               : 2019-10-04 11:43:18 (0 hours, 1 minutes and 10 seconds)
+Acquisition speed   : 30.29 MByte/s (0 hours, 1 minutes and 3 seconds)       
+Verification speed  : 318.00 MByte/s (0 hours, 0 minutes and 6 seconds)      
+
+
+Generated image files and their MD5 hashes
+==========================================
+
+No MD5 hashes available (configuration parameter CalcImageFileMD5 is off)
+MD5                               Image file
+n/a                               DEFTUSBimage.E01

@@ -1,0 +1,74 @@
+2019-12-13 10:17:01.899 org.sleuthkit.autopsy.keywordsearch.Server isRunning
+INFO: Solr server is running
+2019-12-13 10:17:13.299 org.sleuthkit.autopsy.casemodule.Case openAppServiceCaseResources
+SEVERE: Solr Keyword Search Service failed to open case resources for CA4
+java.util.concurrent.ExecutionException: org.sleuthkit.autopsy.appservices.AutopsyService$AutopsyServiceException: Failed to open or create core for D:\digitalForensics\CA4\CA4
+	java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	org.sleuthkit.autopsy.casemodule.Case.openAppServiceCaseResources(Case.java:2222)
+	org.sleuthkit.autopsy.casemodule.Case.open(Case.java:1855)
+	org.sleuthkit.autopsy.casemodule.Case.lambda$open$5(Case.java:1743)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.sleuthkit.autopsy.appservices.AutopsyService$AutopsyServiceException: Failed to open or create core for D:\digitalForensics\CA4\CA4
+	java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	org.sleuthkit.autopsy.casemodule.Case.openAppServiceCaseResources(Case.java:2222)
+	org.sleuthkit.autopsy.casemodule.Case.open(Case.java:1855)
+	org.sleuthkit.autopsy.casemodule.Case.lambda$open$5(Case.java:1743)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.sleuthkit.autopsy.keywordsearch.KeywordSearchModuleException: Could not create or open index
+	java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	org.sleuthkit.autopsy.casemodule.Case.openAppServiceCaseResources(Case.java:2222)
+	org.sleuthkit.autopsy.casemodule.Case.open(Case.java:1855)
+	org.sleuthkit.autopsy.casemodule.Case.lambda$open$5(Case.java:1743)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+org.apache.solr.client.solrj.impl.HttpSolrServer$RemoteSolrException: Error CREATEing SolrCore 'ca4_20191206_113834_20191206_113844': Unable to create core: ca4_20191206_113834_20191206_113844 Caused by: D:\digitalForensics\CA4\CA4\ModuleOutput\keywordsearch\data\solr4_schema2.1\index\_2cl.fdt
+	java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	org.sleuthkit.autopsy.casemodule.Case.openAppServiceCaseResources(Case.java:2222)
+	org.sleuthkit.autopsy.casemodule.Case.open(Case.java:1855)
+	org.sleuthkit.autopsy.casemodule.Case.lambda$open$5(Case.java:1743)
+	java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	java.lang.Thread.run(Thread.java:748)
+2019-12-13 10:17:13.552 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.25.2 loaded in native mode
+2019-12-13 10:17:13.97 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened CA4 (ca4_20191206_113834) in D:\digitalForensics\CA4\CA4 as the current case
+2019-12-13 10:17:14.213 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent findInstance
+WARNING: Cannot find DataContentTopComponent component. It will not be located properly in the window system.
+2019-12-13 10:45:39.207 org.sleuthkit.autopsy.texttranslation.translators.GoogleTranslator loadTranslator
+INFO: No credentials file has been provided for Google Translator
+2019-12-13 10:45:39.207 org.sleuthkit.autopsy.texttranslation.translators.GoogleTranslator loadTranslator
+WARNING: Credentials were not successfully made, no translations will be available from the GoogleTranslator
+2019-12-19 08:58:36.1 org.sleuthkit.autopsy.keywordsearch.Server stop
+INFO: Stopping Solr server from: C:\Program Files\Autopsy-4.12.0\autopsy\solr
+2019-12-19 08:58:36.431 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
+INFO: Running Solr command: [C:\Program Files\Autopsy-4.12.0\jre\bin\java, -Xmx512m, -DSTOP.PORT=34343, -Djetty.port=23232, -DSTOP.KEY=jjk#09s, -jar, start.jar, --stop]
+2019-12-19 08:58:36.444 org.sleuthkit.autopsy.keywordsearch.Server runSolrCommand
+INFO: Finished running Solr command
+2019-12-19 08:58:36.444 org.sleuthkit.autopsy.keywordsearch.Server stop
+INFO: Waiting for Solr server to stop
+2019-12-19 08:58:37.53 org.sleuthkit.autopsy.keywordsearch.Server stop
+INFO: Finished stopping Solr server
+2019-12-19 08:58:37.53 org.sleuthkit.autopsy.core.Installer <init>
+INFO: core installer created
+2019-12-19 08:58:37.634 org.sleuthkit.autopsy.casemodule.Case closeCurrentCase
+INFO: Closing current case CA4 (ca4_20191206_113834) in D:\digitalForensics\CA4\CA4
+2019-12-19 08:58:39.664 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Shutting down image gallery controller for case CA4 (ca4_20191206_113834)
+2019-12-19 08:58:39.67 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB close
+INFO: Closing the drawable.db
+2019-12-19 08:58:39.681 org.sleuthkit.autopsy.imagegallery.ImageGalleryController shutDown
+INFO: Completed shut down of image gallery controller for case CA4 (ca4_20191206_113834)

@@ -1,0 +1,25 @@
+Created with Forensic Imager
+Processing drive: \\.\E:
+Image File Name: C:\Users\Rob\Desktop\WINDOWS2.E01
+Image File Type: Encase v.6.10
+Compression Image Type  : Good
+Segment size: 2000 MB
+Case Name: WINDOWS2
+Evidence Number: 1
+Unique Description: WINDOWSUSB2
+Examiner: Rob
+Notes: 
+Image started at: 04/10/2019 11:20:54
+Image finished at: 04/10/2019 11:26:34
+Elapsed time: 00:05:40
+GUID: {92995C93-F064-457F-A8EE-EC27FA0B9546}
+Source MD5Hash:          BD6A8ABB66A2B476D7427674E53A9966
+Source SHA1Hash:          295d653b12aceca8569391f303b22bd701d79440
+Source SHA256Hash:          8ac0c5abb8cc927d7c68c4a4bc363b57e116767d38904044a32628d59dc60424
+Verify MD5Hash:           BD6A8ABB66A2B476D7427674E53A9966
+Verify SHA1Hash:    295d653b12aceca8569391f303b22bd701d79440
+Verify SHA256Hash:    8ac0c5abb8cc927d7c68c4a4bc363b57e116767d38904044a32628d59dc60424
+Acquisition completed!
+MD5 acquisition and verification hash: Match
+SHA1 acquisition and verification hash: Match
+SHA256 acquisition and verification hash: Match
